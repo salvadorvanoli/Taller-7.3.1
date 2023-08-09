@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function(){
         let check = document.getElementById("terminos");
         // Evita que la página se recargue
         event.preventDefault();
-        if(nombre.value && apellido.value && email.value && password.value===scndpassword.value && password.value.length>=6 && scndpassword.value.length>=6 && check.checked){
+        if(password.value===scndpassword.value){
             showAlertSuccess();
         }else{
             showAlertError();
