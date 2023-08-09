@@ -8,6 +8,7 @@
   <title>Registro</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <script src="js/validacion.js"></script>
 </head>
 
 <body class="bg-light">
@@ -18,7 +19,7 @@
         <div class="col">
           <h1 class="mb-3">Registro</h1>
           <hr class="my-4">
-          <form>
+          <!-- <form> -->
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="nombre" class="form-label">Nombre</label>
@@ -37,7 +38,7 @@
 
             <div class="col-sm-6">
               <label for="password1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="password1" required>
+              <input type="password" class="form-control" id="password1" required minlength="6">
             </div>
 
             <div class="col-sm-6">
@@ -51,7 +52,7 @@
             </div>
 
             <button class="btn btn-primary" type="button submit" id="regBtn">Registrarme</button>
-          </form>
+          <!-- </form> -->
           </div>
         </div>
       </div>
