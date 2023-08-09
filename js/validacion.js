@@ -13,10 +13,6 @@ document.addEventListener("DOMContentLoaded", function(){
     function validarFormulario(event){
         let password = document.getElementById("password1");
         let scndpassword = document.getElementById("password2");
-        let nombre = document.getElementById("nombre");
-        let apellido = document.getElementById("apellido");
-        let email = document.getElementById("email");
-        let check = document.getElementById("terminos");
         // Evita que la página se recargue
         event.preventDefault();
         if(password.value===scndpassword.value){
